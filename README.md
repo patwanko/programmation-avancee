@@ -10,15 +10,16 @@ Le code d’une application en ligne de commande vous est fourni. Vous devez cr�
 
 ## À faire :
 
-Utiliser votre repo Github Classroom
-1.	Vous connecter sur Github Classroom
-2.	Ajouter le repo qui vous a été associé sur votre poste grâce à Github Desktop
-3.	Configurer un fichier «.gitignore » omettant les fichiers autogénérés de Visual Studio
+Utiliser votre compte Github
+1.	Accepter l'exercice en suivant le lien fournit
+2.	Lier votre nom à votre compte Github
+3.	Créer un repo de travail à partir de celui fournit. Utiliser Github Desktop pour cela
+4.	Configurer un fichier «.gitignore » omettant les fichiers autogénérés de Visual Studio
     * Le dossier caché .vs
     * Les dossiers bin et debug
     * Les dossiers x64 et x86
     * Les .exe
-4. S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » **<ins>avant de pousser le commit</ins>**
+5. S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » **<ins>avant de pousser le commit</ins>**
 
 ## Créer un nouveau projet dans votre repo
 1.	Doit se nommer tic_tac_toe
