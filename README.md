@@ -14,10 +14,10 @@ Utiliser votre repo Github Classroom
 1.	Vous connecter sur Github Classroom
 2.	Ajouter le repo qui vous a été associé sur votre poste grâce à Github Desktop
 3.	Configurer un fichier «.gitignore » omettant les fichiers autogénérés de Visual Studio
-   * Le dossier caché .vs
-   * Les dossiers bin et debug
-   * Les dossiers x64 et x86
-   * Les .exe
+    * Le dossier caché .vs
+    * Les dossiers bin et debug
+    * Les dossiers x64 et x86
+    * Les .exe
 4. S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » **<ins>avant de pousser le commit</ins>**
 
 ## Créer un nouveau projet dans votre repo
@@ -49,16 +49,16 @@ Utiliser votre repo Github Classroom
 ## Compléter le code
 C’est le temps de s’amuser!
 1.	Compléter le code de la fonction « VerifierTicTacToe » afin qu’elle retourne vrai si le joueur passé en paramètre gagne et faux sinon
-  * Petit rappel des règles, on gagne si :
-    * Nous formons une ligne complète
-    * Nous formons une colonne complète
-    * Nous formons une diagonale complète
+     * Petit rappel des règles, on gagne si :
+         * Nous formons une ligne complète
+         * Nous formons une colonne complète
+         * Nous formons une diagonale complète
 2.	Faire un commit avec un nom significatif
 
 ## Remise dans LÉA
 Malgré le fait que j’ai accès à votre code dans git, veuillez toujours remettre une version finale dans LÉA lorsqu’un énoncé de travail vous le permet.
 1.	Nettoyer la solution
-  * Enlever tous les éléments indésirables (.vs, bin, debug, x64, x86…)
+    * Enlever tous les éléments indésirables (.vs, bin, debug, x64, x86…)
 2.	Compresser la solution (en .zip)
 3.	Remettre via Léa
 
