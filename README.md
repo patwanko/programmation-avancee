@@ -14,11 +14,11 @@ Utiliser votre repo Github Classroom
 1.	Vous connecter sur Github Classroom
 2.	Ajouter le repo qui vous a été associé sur votre poste grâce à Github Desktop
 3.	Configurer un fichier «.gitignore » omettant les fichiers autogénérés de Visual Studio
-a.	Le dossier caché .vs
-b.	Les dossiers bin et debug
-c.	Les dossiers x64 et x86
-d.	Les .exe
-4.	S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » <u>**avant de pousser le commit**</u>
+   1. Le dossier caché .vs
+   2. Les dossiers bin et debug
+   3. Les dossiers x64 et x86
+   4. Les .exe
+4. S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » **<ins>avant de pousser le commit</ins>**
 
 ## Créer un nouveau projet dans votre repo
 1.	Doit se nommer tic_tac_toe
@@ -34,9 +34,9 @@ d.	Les .exe
 1.	Déplacer les déclarations de fonctions dans un fichier en-tête nommé « Fonctions.h »
 2.	Tenter de compiler et remarquer ce qui se passe
 3.	Déplacer les fonctions complètes dans un fichier nommé « Fonctions.cpp »
-a.	Ajouter un « include » de « Fonctions.cpp » vers « Fonctions.h »
-b.	Réaliser que les références nécessaires n’ont pas suivies
-c.	Ajouter les « includes » et « using namespace » nécessaires dans « Fonction.h » (Puisque c’est inclus dans le .h et que le .h est inclus dans le .cpp, tout le monde a ce qu’il faut!)
+     1. Ajouter un « include » de « Fonctions.cpp » vers « Fonctions.h »
+     2. Réaliser que les références nécessaires n’ont pas suivies
+     3. Ajouter les « includes » et « using namespace » nécessaires dans « Fonction.h » (Puisque c’est inclus dans le .h et que le .h est inclus dans le .cpp, tout le monde a ce qu’il faut!)
 4.	Faire un commit avec un nom significatif
 
 ## Documenter le code
@@ -49,16 +49,16 @@ c.	Ajouter les « includes » et « using namespace » nécessaires dans « Fonc
 ## Compléter le code
 C’est le temps de s’amuser!
 1.	Compléter le code de la fonction « VerifierTicTacToe » afin qu’elle retourne vrai si le joueur passé en paramètre gagne et faux sinon
-a.	Petit rappel des règles, on gagne si :
-i.	Nous formons une ligne complète
-ii.	Nous formons une colonne complète
-iii.	Nous formons une diagonale complète
+  * Petit rappel des règles, on gagne si :
+    * Nous formons une ligne complète
+    * Nous formons une colonne complète
+    * Nous formons une diagonale complète
 2.	Faire un commit avec un nom significatif
 
 ## Remise dans LÉA
 Malgré le fait que j’ai accès à votre code dans git, veuillez toujours remettre une version finale dans LÉA lorsqu’un énoncé de travail vous le permet.
 1.	Nettoyer la solution
-a.	Enlever tous les éléments indésirables (.vs, bin, debug, x64, x86…)
+  * Enlever tous les éléments indésirables (.vs, bin, debug, x64, x86…)
 2.	Compresser la solution (en .zip)
 3.	Remettre via Léa
 
