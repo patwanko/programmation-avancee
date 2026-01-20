@@ -14,10 +14,10 @@ Utiliser votre repo Github Classroom
 1.	Vous connecter sur Github Classroom
 2.	Ajouter le repo qui vous a été associé sur votre poste grâce à Github Desktop
 3.	Configurer un fichier «.gitignore » omettant les fichiers autogénérés de Visual Studio
-   1. Le dossier caché .vs
-   2. Les dossiers bin et debug
-   3. Les dossiers x64 et x86
-   4. Les .exe
+   * Le dossier caché .vs
+   * Les dossiers bin et debug
+   * Les dossiers x64 et x86
+   * Les .exe
 4. S’assurer qu’aucun fichier inutile ne se présente lors du commit initial ou des subséquents. Si cela vient à arriver, ajouter les filtres nécessaires dans le «.gitignore » **<ins>avant de pousser le commit</ins>**
 
 ## Créer un nouveau projet dans votre repo
@@ -34,9 +34,9 @@ Utiliser votre repo Github Classroom
 1.	Déplacer les déclarations de fonctions dans un fichier en-tête nommé « Fonctions.h »
 2.	Tenter de compiler et remarquer ce qui se passe
 3.	Déplacer les fonctions complètes dans un fichier nommé « Fonctions.cpp »
-     1. Ajouter un « include » de « Fonctions.cpp » vers « Fonctions.h »
-     2. Réaliser que les références nécessaires n’ont pas suivies
-     3. Ajouter les « includes » et « using namespace » nécessaires dans « Fonction.h » (Puisque c’est inclus dans le .h et que le .h est inclus dans le .cpp, tout le monde a ce qu’il faut!)
+    * Ajouter un « include » de « Fonctions.cpp » vers « Fonctions.h »
+    * Réaliser que les références nécessaires n’ont pas suivies
+    * Ajouter les « includes » et « using namespace » nécessaires dans « Fonction.h » (Puisque c’est inclus dans le .h et que le .h est inclus dans le .cpp, tout le monde a ce qu’il faut!)
 4.	Faire un commit avec un nom significatif
 
 ## Documenter le code
